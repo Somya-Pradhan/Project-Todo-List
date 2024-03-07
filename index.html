@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>www.todo-list.com</title>
+    <link rel="icon" type="favicon" href="assets/favicon.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="text-box">
+            <img class="toDoicon" src="assets/todoicon.jpg.png">
+                <input type="text" id="items" autofocus placeholder ="Type Here">
+        </div>
+
+        <div class="label-section-one">
+            <div class="label-one">
+                <div class="all-tasks">All Task :</div>
+                <div id="all-tasks-counter">00</div>
+            </div>
+            <div class="label-two">Delete Task</div>
+        </div>    
+
+        <section class="divider-one"></section>
+
+        <div class="todo-list">
+            <ul id="list"></ul>
+        </div>
+
+        <div class="label-section-two">
+            <div class="comp-tasks">Completed Tasks :</div>
+            <div id="comp-tasks-counter">00</div>
+        </div>
+
+        <section class="divider-two"></section>
+
+        <div class="completed-list">
+            <ul id="comp-list"></ul>
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/2b678ce7e2.js" crossorigin="anonymous"></script> 
+    
+    
+    <script src="script.js"></script>
+</body>
+
+</html>
